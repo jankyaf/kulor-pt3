@@ -1,6 +1,6 @@
 <template>
   <div>
-    <UButton icon="i-lucide-menu" @click="collapsed = !collapsed" color="neutral" variant="ghost" class="m-2" />
+    <UButton icon="i-lucide-menu" color="neutral" variant="ghost" class="m-2" @click="collapsed = !collapsed" />
     <UNavigationMenu
       :collapsed="collapsed"
       orientation="vertical"
